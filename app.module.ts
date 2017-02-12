@@ -10,6 +10,8 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
     RecipesComponent,
     RecipeListComponent,
     RecipeItemComponent,
-    RecipeDetailComponent
+    RecipeDetailComponent,
+
+
   ],
   imports: [
     BrowserModule,
